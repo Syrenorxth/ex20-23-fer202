@@ -1,0 +1,63 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+  padding: 6px 12px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu a.active {
+  background-color: #333;
+  color: white;
+}
+
+/* bai 20 */
+.nav-menu {
+  display: flex;
+  gap: 16px;
+  padding: 10px 20px;
+  background-color: #282c34;
+}
+
+.nav-menu a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.nav-menu a.active {
+  color: white;
+  font-weight: bold;
+}
+
+.page {
+  padding: 20px;
+}
+
+/* bai 23 */
+.page-header {
+  background-color: #17064b;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.page-header h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.page-header svg {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 12px;
+  vertical-align: -0.15em;
+}
